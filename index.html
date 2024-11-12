@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Charlie's</title>
+        <!-- meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="author" content="GPQJ"/>
+        <meta name="description" content="A simple ordering web application for Charlie's, a fictional restaurant specializing in burgers and pizzas.">
+        <meta name="theme-color" content="#16DB99">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Charlie's</h1>
+            <p>The best burgers and pizzas in town</p>
+        </header>
+        <main class="main-container">
+        <section class="menu-container">
+            <!-- Menu will render here -->
+        </section>
+        <section class="invisible" id="payment-method-container">
+            <form class="payment-form" id="payment-method-form">
+                <h1 class="form-header padding">Enter card details</h1>
+                <div class="padding">
+                    <label for="card-name" class="sr-only">Enter name on card</label>
+                    <input 
+                        type="text"
+                        name="card-name"
+                        id="card-name"
+                        placeholder="Enter your name" 
+                        autofocus>
+                    <label for="card-number" class="sr-only">Enter card number</label>
+                    <input 
+                        type="text"
+                        name="card-number"
+                        id="card-number"
+                        placeholder="Enter card number"
+                        maxlength="16">
+                    <label for="card-cvv" class="sr-only">Enter card CVV</label>
+                    <input 
+                        type="text"
+                        name="card-cvv"
+                        id="card-cvv"
+                        placeholder="Enter CVV"
+                        maxlength="4">
+                </div>
+                <button class="submit-btn" id="pay-btn" data-action="submit-payment">
+                    Pay
+                </button>
+            </form>
+        </section>
+    </main>
+    <section class="order-summary invisible">
+        <article>
+            <h2 class="centered">Your order</h2>
+            <ul class="order-list padding" aria-live="polite">
+            <!-- Ordered items list will render here -->
+            </ul>
+        <div class="flex-space order-total">
+            <p class="item-name">Total price:</p>
+            <p class="summary-price"></p>
+        </div>
+        <button class="submit-btn" data-action="submit-order">Complete order</button>
+        </article>
+    </section>
+	    <script src="index.js" type="module"></script>
+    </body>
+</html>
+
