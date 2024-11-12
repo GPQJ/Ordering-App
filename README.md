@@ -3,7 +3,7 @@
 A simple ordering web application for Charlie’s, a fictional restaurant specializing in burgers and pizzas. The app allows users to browse a menu, add items to an order, and complete a checkout process with basic validation for credit card information.
 
 
-# # Features
+## Features
 
 **Menu Rendering:** Automatically displays menu items based on a JavaScript array.
 
@@ -15,7 +15,7 @@ A simple ordering web application for Charlie’s, a fictional restaurant specia
 Accessible: Includes aria-labels for screen readers to improve usability for visually impaired users.
 
 
-# # Usage
+## Usage
 
 **Browse Menu:** Users can view the list of items on the menu. Each with a name, price, and description.
 
