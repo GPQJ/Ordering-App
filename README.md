@@ -15,7 +15,7 @@ A simple ordering web application for Charlie’s, a fictional restaurant specia
 Accessible: Includes aria-labels for screen readers to improve usability for visually impaired users.
 
 
-## Usage
+## Usage
 
 **Browse Menu:** Users can view the list of items on the menu. Each with a name, price, and description.
 
@@ -34,3 +34,9 @@ Accessible: Includes aria-labels for screen readers to improve usability for vis
 - CSS
 - JavaScript
 - Setup
+
+
+
+
+
+##### GPQJ ❀ 2024
