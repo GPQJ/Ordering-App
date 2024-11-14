@@ -1,15 +1,14 @@
 {
-	"name": "ordering-app",
-	"version": "1.0.0",
-	"description": "A simple ordering app for Charlie's",
-	"main": "index.js",
-	"scripts": {
-	  "start": "index.js",      
-	  "build": "echo 'No build step'"
-	},
-	"engines": {
-	  "node": "18.17.1"    
-	},
-	"author": "GPQJ"
-  }
-  
+  "name": "Scrim-s02tj66",
+  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0ie",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
